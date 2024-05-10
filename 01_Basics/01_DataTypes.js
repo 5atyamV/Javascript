@@ -4,7 +4,7 @@
 
 console.log(3 
     +
-     3) // code readability should be high
+     3) // code readability should be high, So dont do these kinds of things
 
 console.log("Hitesh")
 
@@ -25,5 +25,5 @@ let state;
 
 // object
 
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+console.log(typeof undefined); // undefined - Kind of question asked in interview
+console.log(typeof null); // object - Kind of question asked in interview
