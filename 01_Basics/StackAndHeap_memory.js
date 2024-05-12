@@ -6,18 +6,19 @@ let myname = "Satyam"
 let newname = myname
  newname = "coder"
  
- console.log(myname);
- console.log(newname);
+ console.log(myname);// these are stored in stack and they give output which is copy 
+ console.log(newname);// these are stored in stack and they give output which is copy 
+
 
  let useOne = {
-      userEmal: "Satyam@google.com"
+      userEmail: "Satyam@google.com"
       
  }
 
  let userTwo = useOne
 
- userTwo.Emal = "satyam@gmal.com"
+ userTwo.Email = "satyam@gmail.com"
  
-console.log(userOne.Emal);
-console.log(userTwo.Emal);
+console.log(userOne.Email);// they use heap to store data and we get orginal value and any modification is done on the orginal or we can say reference
+console.log(userTwo.Email);
 
