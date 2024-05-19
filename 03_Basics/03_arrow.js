@@ -47,6 +47,7 @@ const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
 console.log(addTwo(3, 5))
+console.log(addTwo(3, 5))
 
 
 // const myArray = [2, 5, 3, 7, 8]
